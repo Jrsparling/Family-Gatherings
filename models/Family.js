@@ -14,10 +14,16 @@ Family.init(
         name: {
             type: DataTypes.STRING,
             allowNull: false,
+            validate: {
+              len: [1, 350]
+            }
         },
         description: {
             type: DataTypes.STRING,
             allowNull: false,
+            validate: {
+              len: [1, 128]
+            }
           },
         },
     {
