@@ -1,14 +1,22 @@
 [
     {
         "name": "Ted's family",
-        "description": "20"
+        "description": "Early to bed, early to rise, makes us all healthy, wealth and wise!"
     },
     {
         "name": "Louis' family",
-        "description": "5"
+        "description": "Living the dream!"
     },
     {
         "name": "Jerry's family",
-        "description": "3"
+        "description": "Hustle is our middle name"
+    },
+    {
+        "name": "Carson's family",
+        "description": "Make every day your best day!"
+    },
+    {
+        "name": "Charles' family",
+        "description": "Me myself and I"
     }
 ]

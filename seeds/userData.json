@@ -1,20 +1,104 @@
 [
   {
-    "name": "Sal",
-    "email": "sal@hotmail.com",
-    "password": "password12345",
+    "name": "Ted",
+    "email": "GreenT@hotmail.com",
+    "password": "password1",
     "family_id": 1
   },
   {
-    "name": "Lernantino",
-    "email": "lernantino@gmail.com",
-    "password": "password12345",
+    "name": "TedSpouse",
+    "email": "TedSpouse@gmail.com",
+    "password": "password1a",
+    "family_id": 1
+  },
+  {
+    "name": "TedChild1",
+    "email": "TedChild1@aol.com",
+    "password": "password1b",
+    "family_id": 1
+  },
+  {
+    "name": "TedChild2",
+    "email": "TedChild2@hotmail.com",
+    "password": "password1c",
+    "family_id": 1
+  },
+  {
+    "name": "TedChild3",
+    "email": "TedChild3@bigcorp.com",
+    "password": "password1d",
+    "family_id": 1
+  },
+  {
+    "name": "TedChild4",
+    "email": "TedChild4@gmail.com",
+    "password": "password1e",
+    "family_id": 1
+  },
+  {
+    "name": "Louis",
+    "email": "Louis@hotmail.com",
+    "password": "password2",
     "family_id": 2
   },
   {
-    "name": "Amiko",
-    "email": "amiko2k20@aol.com",
-    "password": "password12345",
+    "name": "LouisSpouse",
+    "email": "LouisSpouse@gmail.com",
+    "password": "password2a",
+    "family_id": 2
+  },
+  {
+    "name": "LouisChild1",
+    "email": "LouisChild1@aol.com",
+    "password": "password2b",
+    "family_id": 2
+  },
+  {
+    "name": "LouisChild2",
+    "email": "LouisChild2@hotmail.com",
+    "password": "password2c",
+    "family_id": 2
+  },
+  {
+    "name": "LouisChild3",
+    "email": "LouisChild3@smallcorp.com",
+    "password": "password2d",
+    "family_id": 2
+  },
+  {
+    "name": "Jerry",
+    "email": "Jerry@hotmail.com",
+    "password": "password3",
     "family_id": 3
+  },
+  {
+    "name": "JerrySpouse",
+    "email": "JerrySpouse@gmail.com",
+    "password": "password3a",
+    "family_id": 3
+  },
+  {
+    "name": "Carson",
+    "email": "Carson@hotmail.com",
+    "password": "password4",
+    "family_id": 4
+  },
+  {
+    "name": "CarsonSpouse",
+    "email": "CarsonSpouse@gmail.com",
+    "password": "password4a",
+    "family_id": 4
+  },
+  {
+    "name": "CarsonChild1",
+    "email": "CarsonChild1@aol.com",
+    "password": "password4b",
+    "family_id": 4
+  },
+  {
+    "name": "Charles",
+    "email": "Charles@medcorp.com",
+    "password": "password5",
+    "family_id": 5
   }
 ]
