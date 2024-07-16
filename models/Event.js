@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Post extends Model {}
+class Event extends Model {}
 
-Post.init(
+Event.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -15,8 +15,12 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    event_type: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     description: {
-      type: DataTypes.TEXT,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     date_created: {
@@ -37,8 +41,8 @@ Post.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'post',
+    modelName: 'Event',
   }
 );
 
-module.exports = Post;
+module.exports = Event;

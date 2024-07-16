@@ -1,0 +1,21 @@
+[
+
+    {
+        "title": "enter title1",
+        "event_type": "this is an event type1",
+        "description": "enter event description",
+        "family_id": 1
+    },
+    {
+        "title": "enter title2",
+        "event_type": "this is an event type2",
+        "description": "enter event description",
+        "family_id": 2
+    },
+    {
+        "title": "enter title3",
+        "event_type": "this is an event type3",
+        "description": "enter event description",
+        "family_id": 3
+    }
+]
