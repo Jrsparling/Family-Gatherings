@@ -7,6 +7,6 @@ const eventRoutes = require('./eventRoutes');
 router.use('/users', userRoutes);
 router.use('/post', postRoutes);
 router.use('/family', familyRoutes);
-router.use('/event', eventRoutes);
+router.use('/events', eventRoutes);
 
 module.exports = router;
