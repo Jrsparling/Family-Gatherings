@@ -1,16 +1,20 @@
 const router = require('express').Router();
-const { Event } = require('../../models');
+const { User, Event } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
+  console.log(req.body)
   try {
+   const userData = await User.findByPk(req.session.user_id)
     const newEvent = await Event.create({
       ...req.body,
       user_id: req.session.user_id,
+      family_id: userData.get({ plain: true }).family_id
     });
-
+    console.log(newEvent)
     res.status(200).json(newEvent);
   } catch (err) {
+    console.log(err)
     res.status(400).json(err);
   }
 });
