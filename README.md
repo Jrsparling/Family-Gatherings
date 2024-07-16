@@ -14,7 +14,7 @@ Family-Gatherings was built to bring back those personal connections we all need
 <br/>
 [Usage](#usage)
 <br/>
-[Credits](#credits)
+[Technologies](#technologies)
 <br/>
 [License](#license)
 <br/>
@@ -23,15 +23,42 @@ Family-Gatherings was built to bring back those personal connections we all need
 
 ## Installation
 
-No install required.
+No install required just go to our site here [Family-Gatherings](https://family-gatherings2.onrender.com/)
+<br/>
 
 ## Usage
 
+![Home page](./Assets/homepage.jpg)
+
+![Login page](./Assets/Login%20page.jpg)
+
+![Create event page](./Assets/Create%20event%20page.jpg)
 Just sign up, create or join a family and connect with your loved ones online.
+
+## Technologies
+
+Technologies we used include the following:
+<br/>
+bcrypt 5.0.0
+<br/>
+connect-session-sequelize 7.0.4
+<br/>
+dotenv 8.2.0
+<br/>
+express 4.17.1
+<br/>
+express-handlebars 5.2.0
+<br/>
+express-session 1.17.1
+<br/>
+pg 8.11.3
+<br/>
+sequelize 6.3.5
+
 
 ## License
     This project is covered under the MIT license.
-[Link](https://opensource.org/licenses/MIT)
+[License Link](https://opensource.org/licenses/MIT)
 
 
 ## Questions
